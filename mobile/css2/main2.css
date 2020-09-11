@@ -1,0 +1,161 @@
+@charset "utf-8";
+
+.mainSlider{
+    position:relative;
+}
+.mainSlider img{
+    width:100%;
+    display:block;
+}
+
+.sliderBtn{
+    position:absolute;
+}
+.sliderBtn li{
+    float:left;
+    text-indent:-9999px;
+}
+.sliderBtn li a{}
+
+.sliderLBtn{
+    left:5px;
+    bottom:0;
+}
+.sliderLBtn li{
+    width:16px;
+    height:16px;
+    background:url(../images/main/blet_visual.png) no-repeat;
+    margin-bottom:10px;
+    margin-left:5px;
+}
+
+.sliderLBtn li:first-child{
+    background-position:0 -16px;
+}
+.sliderLBtn li a{
+    display:block;
+    height:100%;
+}
+
+
+.sliderRBtn{
+    right:0;
+    bottom:0;
+}
+.sliderRBtn li{
+    width:45px;
+    height: 45px;
+    background:url(../images/main/btn_visual_cnt.png) no-repeat;
+}
+.sliderRBtn li a{
+    display:block;
+    height:100%;
+}
+
+.sliderRBtn li:nth-child(2){
+    background-position:-45px 0;
+}
+
+.sliderRBtn li:nth-child(3){
+    background-position:-90px 0;
+}
+
+/*메인콘텐츠01*/
+
+.mainCon01{}
+.mainCon01 h1{
+    text-align: center;
+    padding:20px 0;
+}
+.mainCon01 h1 img{
+    width:150px;
+}
+
+.con01Menu{}
+.con01Menu li{
+    margin-top:2px;
+    background:url(../images/main/brandSite_img01.jpg) no-repeat center center;
+    padding:20px;
+    background-size:cover;
+}
+.con01Menu li a{
+    color:#fff;
+}
+.con01Menu li h2{
+    padding-top:30%;
+}
+.con01Menu li p{}
+
+.con01Menu li:nth-child(2){
+    background-image:url(../images/main/brandSite_img02.jpg);
+}
+
+.con01Menu li:nth-child(3){
+    background-image:url(../images/main/brandSite_img03.jpg);
+}
+
+/*메인콘텐츠02*/
+
+.mainCon02{}
+
+.con02List{}
+.con02List li{
+    margin-top:2px;
+    width:calc(50% - 1px);
+    margin-right:2px;
+    float:left;
+    background:#1c97fe;
+}
+
+.con02List li:nth-child(2n){
+    margin-right:0;
+}
+.con02List li a{
+    color:#fff;
+}
+.con02List li img{
+    width:100%;
+}
+
+.con02Info{
+    padding:10px;
+}
+.con02Info h3{
+    font-size:15px;
+}
+.con02Info p{
+    font-size:11px;
+    margin-top:20px;
+}
+
+/*mainCon03*/
+.mainCon03{}
+.mainCon03 h2{
+    text-align:center;
+    margin:20px 0;
+}
+.mainCon03 h2 img{
+    width:170px;
+}
+
+.con03List{
+    width:100%;
+}
+.con03List a{
+}
+.con03List a>div{
+    width:50%;
+}
+
+.con03Img{
+    position:relative;
+}
+.con03Img img{
+    position:absolute;
+}
+
+.con03Txt{
+    background:#f1f1f1;
+}
+.con03Txt h3{}
+.con03Txt p{}

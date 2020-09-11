@@ -1,0 +1,184 @@
+@charset="utf-8";
+
+#container{}
+
+#mainWrap{}
+
+.mainSlider{
+    background:url(../images/main/img_visual_01.jpg) no-repeat center center;
+    height:600px;
+    text-indent:-9999px;
+    position:relative;
+}
+
+.leftBtn{
+      position:absolute;
+      bottom:20px;
+      left:50%;
+      margin-left:-600px;
+    
+}
+.leftBtn li{
+    background:url(../images/main/blet_visual.png) no-repeat;
+    width:16px;
+    height:16px;
+    float:left;
+    margin-right:5px;
+}
+.leftBtn li:nth-child(3){
+    background-position:bottom;
+}
+.leftBtn li a{}
+
+
+
+.rightBtn{
+        position:absolute;
+        bottom:0;
+        right:20px;
+        right:50%;
+        margin-right:-600px;
+}
+.rightBtn li{
+    background:url(../images/main/btn_visual_cnt.png) no-repeat;
+    width:45px;
+    height:45px;
+    float:left;
+    background-position:-45px;
+}
+
+.rightBtn li:first-child{
+    background-position:left;
+}
+.rightBtn li:last-child{
+    margin-left:1px;
+    background-position:-92px;
+}
+.rightBtn li a{
+}
+
+/*mainCon01*/
+.mainCon01{
+    background:#1C97FE;
+    padding:50px;
+}
+
+.mainCon01 li{
+    float:left;
+    width:273px;
+    font-size:11px;
+    margin-right:36px;
+    color:#fff;
+}
+.mainCon01 li:last-child{
+    margin-right:0;
+}
+.mainCon01 li h3{
+    font-size:20px;
+}
+.mainCon01 li a{
+    color:#fff;
+}
+.mainCon01 li img{
+    padding:10px 0;
+    letter-spacing:-1px;
+}
+.mainCon01 li p{}
+
+/*메인콘텐츠02*/
+
+.mainCon02{
+    background:url(../images/main/brandSite_bg.png) no-repeat center center;
+    background-size:cover;/*랩처럼 씌우는 개념이 cover이고 contain은 이미지100%로 딱 맞춰주는것임. 넘치도록*/
+    text-align:center;
+    padding:50px 0;
+}
+
+.maincon02 h2{
+}
+.maincon02 img{}
+
+.prodView{
+    padding-top:50px;
+}
+.prodView li{
+    float:left;
+    width:273px;
+    margin-right:36px;
+}
+.prodView span{
+    font-size:11px;
+    margin-left:5px;
+}
+.prodView li:last-child{
+    margin-right:0;
+}
+.prodView img{
+    display:block;
+    width:100%;
+}
+.prodView p{
+    padding:10px 0;
+    font-weight:bold;
+}
+.prodView a{}
+
+.morBtn{
+    width:120px;
+    margin:0 auto;
+    background:#263D92; 
+    line-height:30px;
+    border-radius:20px;
+    margin-top:20px;
+}
+
+.morBtn a{
+    color:#fff;
+    display:block;
+  
+    
+}
+
+/*mainCon03*/
+
+.mainCon03{
+    padding:50px 0;
+}
+.mainCon03 h2{
+    text-align:center;
+    margin-bottom:30px;
+}
+.mainCon03 h2 img{}
+
+.con03{}
+
+.con03Menu{
+    width:376px;
+    float:left;
+    margin-right:36px;
+    box-shadow:0px 5px 10px rgba(0,0,0,0.2);
+}
+
+.con03Menu:last-child{
+    margin-right:0;
+}
+.con03Menu img{
+    display:block;
+    width:100%;
+}
+
+.menuInfo{
+    padding:20px;
+}
+.menuInfo h3{}
+.menuInfo p{
+    margin-bottom:20px;
+    font-size:13px;
+}
+
+.con03 .morBtn{
+    margin:0;
+    text-align:center;
+    background:#1C97FE;
+
+}
